@@ -1,12 +1,20 @@
 <template>
   <div class="nav">
-    <nuxt-link to="/" class="brand">Real World Events</nuxt-link>
+    <nuxt-link to="/" class="brand">
+      Real World Events
+    </nuxt-link>
     <nav>
-      <nuxt-link to="/">List</nuxt-link>&nbsp;|
-      <nuxt-link to="/event/create">Create</nuxt-link>
+      <nuxt-link to="/">
+        List
+      </nuxt-link>
+      |
+      <nuxt-link to="/event/create">
+        Create
+      </nuxt-link>
     </nav>
   </div>
 </template>
+
 <style scoped>
 .brand {
   font-family: 'Montserrat', sans-serif;
@@ -31,6 +39,7 @@
   color: #39b982;
   border-bottom: solid 2px #39b982;
 }
+
 .nav a {
   display: inline-block;
 }
